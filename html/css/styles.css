@@ -1,0 +1,147 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background: #E9E4E2;
+}
+
+.header {
+  background: #fff;
+}
+
+.header .logo {
+  width: 320px;
+  margin: 15px 0;
+}
+
+.header a {
+  color: #147E0A;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+.navbar .bg-dark {
+  background-image: linear-gradient(-90deg, #147E0A 0%, #7FBD12 100%);
+}
+
+.navbar .nav-link {
+  text-transform: uppercase;
+}
+
+.white-box {
+  background: #FFFFFF;
+  box-shadow: 0 2px 44px 0 rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+}
+
+.bid-product {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.bid-product .image {
+  margin: 30px 0;
+}
+
+.bid-product .image img {
+  width: 100%;
+}
+
+.bid-product .price {
+  font-family: NunitoSans-Bold;
+  font-size: 19px;
+  color: #52A30F;
+  margin-top: 10px;
+}
+
+.recent-products .nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: transparent;
+  border-color: transparent;
+  /* border: none; */
+}
+
+.recent-products .nav-link {
+  color: #686868;
+  font-weight: 700;
+}
+
+@media (min-width: 260px) {
+  body:before {
+    content: "Mobile: 260px";
+    background: purple;
+    position: fixed;
+    right: 0;
+    padding: 10px;
+    z-index: 1;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  body:before {
+    content: "Landscape: 576px";
+    background: red;
+  }
+  .user-access {
+    float: right;
+    margin-top: 33px;
+  }
+}
+
+@media (min-width: 768px) {
+  body:before {
+    content: "tablets: 768px";
+    background: green;
+  }
+}
+
+@media (min-width: 992px) {
+  body:before {
+    content: "Desktops: 992px";
+    background: yellow;
+  }
+  .hide-on-desktop {
+    display: none;
+  }
+  .ml-auto, .mx-auto {
+    margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  body:before {
+    content: "Large desktops: 1200px";
+    background: pink;
+  }
+}
+
+.d1 {
+  background: pink;
+}
+
+.d2 {
+  background: orange;
+}
+
+.d3 {
+  background: lightcyan;
+}
+
+.d4 {
+  background: lightgreen;
+}
+
+.d5 {
+  background: lightgoldenrodyellow;
+}
+
+.d6 {
+  background: yellow;
+}
+
+.d7 {
+  background: purple;
+}
+/*# sourceMappingURL=styles.css.map */

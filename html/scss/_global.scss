@@ -1,0 +1,65 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background: #E9E4E2;
+}
+
+.header {
+  background: #fff;
+  .logo {
+    width: 320px;
+    margin: 15px 0;
+  }
+  a{
+    color:#147E0A;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+
+.navbar {
+  .bg-dark{
+    background-image: linear-gradient(-90deg, #147E0A 0%, #7FBD12 100%);
+  }
+  .nav-link {
+    text-transform: uppercase;
+  }
+}
+
+.white-box {
+  background: #FFFFFF;
+  box-shadow: 0 2px 44px 0 rgba(0,0,0,0.03);
+  border-radius: 8px;
+}
+
+.bid-product {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  .image {
+    margin: 30px 0;
+    img{
+      width: 100%;
+    }
+  }
+  .price {
+    font-family: NunitoSans-Bold;
+    font-size: 19px;
+    color: #52A30F;
+    margin-top: 10px;
+  }
+}
+
+.recent-products {
+  .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: transparent;
+    border-color: transparent;
+    /* border: none; */
+  }
+  .nav-link {
+    color: #686868;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,55 @@
+
+@media (min-width: 260px) {
+    body:before{
+        content: "Mobile: 260px";
+        background: purple;
+        position: fixed;
+        right: 0;
+        padding: 10px;
+        z-index: 1;
+        bottom: 0;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    body:before{
+        content: "Landscape: 576px";
+        background: red;
+    }
+    .user-access{
+        float: right;
+        margin-top: 33px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    body:before{
+        content: "tablets: 768px";
+        background: green;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    body:before{
+        content: "Desktops: 992px";
+        background: yellow;
+    }
+    .hide-on-desktop {
+        display: none;
+    }
+    .ml-auto, .mx-auto {
+        margin-left: 0 !important;
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    body:before{
+        content: "Large desktops: 1200px";
+        background: pink;
+    }
+
+}
