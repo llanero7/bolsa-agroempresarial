@@ -63,3 +63,82 @@ body {
     font-weight: 700;
   }
 }
+
+/*------------- Large Screen Panel ------------------*/
+html,body {
+  height:100%;
+  margin:0;
+}
+.col-d{
+  height:50%;
+  width: 33.33333333333333%;
+  float: left;
+  border: solid 1px #D2D2D2;
+  h1{
+    background: green;
+    font-size: 21px;
+    padding: 10px;
+    color: #fff;
+  }
+  h1.green-light {
+    background: #7FBD12;
+  }
+}
+
+.timer {
+  .minutes, .seconds{
+    width: 48%;
+    float: left;
+    text-align: center;
+    h2 {
+      font-size: 12px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .number {
+      display: inline-block;
+      font-size: 84px;
+      line-height: 84px;
+      background: #000;
+      padding: 15px;
+      color: #fff;
+    }
+    .seconds {
+      background: blueviolet;
+    }
+  }
+  .dots{
+    float: left;
+    height: 70px;
+    width: 3%;
+  }
+}
+
+.lotes-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li{
+    width: 100%;
+    float: left;
+    border-bottom: solid 1px red;
+    padding-bottom: 15px;
+    margin-top: 15px;
+  }
+  .image-holder {
+    float: left;
+    img {
+      width: 80px;
+    }
+    
+  }
+}
+
+.lotes-images-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    float: left;
+  }
+}
