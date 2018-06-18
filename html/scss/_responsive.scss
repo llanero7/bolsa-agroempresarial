@@ -29,6 +29,16 @@
         content: "tablets: 768px";
         background: green;
     }
+    .slider-price {
+        font-size: 27px;
+        color: #686868;
+        font-weight: 700;
+    }
+    .border-right-left {
+        border-left: solid 3px #E4DFDD;
+        border-right: solid 3px #E4DFDD;
+    }
+
 }
 
 // Large devices (desktops, 992px and up)
@@ -43,6 +53,9 @@
     .ml-auto, .mx-auto {
         margin-left: 0 !important;
     }
+    .slider-container {
+        margin-bottom: 0;
+      }
 }
 
 // Extra large devices (large desktops, 1200px and up)
