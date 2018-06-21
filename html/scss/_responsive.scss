@@ -64,5 +64,8 @@
         content: "Large desktops: 1200px";
         background: pink;
     }
+}
 
+body:before{
+    display: none;
 }
